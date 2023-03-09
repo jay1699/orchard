@@ -1,0 +1,8 @@
+﻿C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\ISmtpService.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\MailMessage.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\MailMessageAttachment.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\SmtpDeliveryMethod.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\SmtpEncryptionMethod.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\SmtpResult.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\SmtpSettings.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Build\nuget-icon.png

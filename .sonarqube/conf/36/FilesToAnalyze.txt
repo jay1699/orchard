@@ -1,0 +1,13 @@
+﻿C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\ILuceneAnalyzer.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\ILuceneQueryProvider.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\ILuceneQueryService.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\ILuceneSearchQueryService.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\Indexing\Index.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\Indexing\Mapping.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\Indexing\Property.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\Indexing\Types.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\LuceneOptions.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\LuceneQueryContext.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\LuceneQueryResults.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\LuceneTopDocs.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Build\nuget-icon.png

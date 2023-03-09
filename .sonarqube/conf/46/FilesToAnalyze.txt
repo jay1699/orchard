@@ -1,0 +1,2 @@
+﻿C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Core\Services\SmtpService.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Build\nuget-icon.png

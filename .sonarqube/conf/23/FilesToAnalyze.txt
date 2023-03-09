@@ -1,0 +1,5 @@
+﻿C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.FileStorage.Abstractions\FileStoreException.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.FileStorage.Abstractions\IFileStore.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.FileStorage.Abstractions\IFileStoreCache.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.FileStorage.Abstractions\IFileStoreEntry.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Build\nuget-icon.png

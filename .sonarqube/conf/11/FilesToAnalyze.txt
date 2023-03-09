@@ -1,0 +1,14 @@
+﻿C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\IResourceManager.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\LinkEntry.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\MetaEntry.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\Properties\AssemblyInfo.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\RequireSettings.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceDebugMode.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceDefinition.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceLocation.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceManagementOptions.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceManifest.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceOptions.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourcePosition.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceRequiredContext.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Build\nuget-icon.png

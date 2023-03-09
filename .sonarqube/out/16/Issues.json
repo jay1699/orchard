@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-6.22580.4 (d7a61210)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CA1050",
+          "level": "note",
+          "message": "Declare types in namespaces",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement.Core/Razor/ResourceCdnHelperExtensions.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 21,
+                  "endLine": 8,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'ResourceCdnHelperExtensions' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement.Core/Razor/ResourceCdnHelperExtensions.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 21,
+                  "endLine": 8,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement.Core/Razor/ResourceCdnHelperExtensions.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 67,
+                  "endLine": 25,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2259",
+          "level": "warning",
+          "message": "'resourcePath' is null on at least one execution path.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement.Core/Razor/ResourceCdnHelperExtensions.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 14,
+                  "endLine": 33,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1050": {
+          "id": "CA1050",
+          "shortDescription": "Declare types in namespaces",
+          "fullDescription": "Types are declared in namespaces to prevent name collisions and as a way to organize related types in an object hierarchy.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1050",
+          "properties": {
+            "category": "Design",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "Redundant Boolean literals should be removed from expressions to improve readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2259": {
+          "id": "S2259",
+          "shortDescription": "Null pointers should not be dereferenced",
+          "fullDescription": "A reference to null should never be dereferenced/accessed. Doing so will cause a NullReferenceException to be thrown. At best, such an exception will cause abrupt program termination. At worst, it could expose debugging information that would be useful to an attacker, or it could allow an attacker to bypass security measures.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2259",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3903": {
+          "id": "S3903",
+          "shortDescription": "Types should be defined in named namespaces",
+          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

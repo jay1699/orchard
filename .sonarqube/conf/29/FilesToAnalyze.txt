@@ -1,0 +1,9 @@
+﻿C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.XmlRpc\Controllers\HomeController.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.XmlRpc\Controllers\MetaWeblogController.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.XmlRpc\Manifest.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.XmlRpc\MethodCallModelBinder.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.XmlRpc\Services\XmlRpcReader.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.XmlRpc\Services\XmlRpcWriter.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.XmlRpc\Startup.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Build\nuget-icon.png
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Module.Targets\Package.Build.props

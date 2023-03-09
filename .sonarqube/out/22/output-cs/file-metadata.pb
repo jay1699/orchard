@@ -1,0 +1,12 @@
+è
+ÖC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\Properties\AssemblyInfo.csutf-8ä
+ÄC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\ResourceDictionary.csutf-8Ü
+}C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\ResourceManager.csutf-8ì
+âC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\ServiceCollectionExtensions.csutf-8ê
+ÜC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\TagHelpers\LinkTagHelper.csutf-8ê
+ÜC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\TagHelpers\MetaTagHelper.csutf-8ï
+ãC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\TagHelpers\ResourcesTagHelper.csutf-8í
+àC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\TagHelpers\ScriptTagHelper.csutf-8ë
+áC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\TagHelpers\StyleTagHelper.csutf-8∂
+™C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8∂
+™C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement\obj\Debug\net6.0\OrchardCore.ResourceManagement.AssemblyInfo.csutf-8

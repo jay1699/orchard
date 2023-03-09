@@ -1,0 +1,3 @@
+﻿C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\test\OrchardCore.Tests.Features\Examples.Features.AssyAttrib\Root.cs
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Build\nuget-icon.png
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Module.Targets\Package.Build.props

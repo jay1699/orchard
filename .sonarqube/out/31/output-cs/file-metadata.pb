@@ -1,0 +1,9 @@
+ñ
+åC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\Controllers\HomeController.csutf-8É
+zC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\Manifest.csutf-8ì
+âC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\Properties\AssemblyInfo.csutf-8Ç
+yC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\Startup.csutf-8∫
+ÆC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8∂
+™C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\obj\Debug\net6.0\OrchardCore.Mvc.HelloWorld.AssemblyInfo.csutf-8ª
+ØC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Modules\OrchardCore.Mvc.HelloWorld\obj\Debug\net6.0\OrchardCore.Mvc.HelloWorld.RazorAssemblyInfo.csutf-8è
+ÉMicrosoft.NET.Sdk.Razor.SourceGenerators\Microsoft.NET.Sdk.Razor.SourceGenerators.RazorSourceGenerator\Views_Home_Index_cshtml.g.csutf-8

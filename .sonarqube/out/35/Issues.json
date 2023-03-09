@@ -1,0 +1,457 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-6.22580.4 (d7a61210)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 48 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 113,
+                  "startColumn": 29,
+                  "endLine": 113,
+                  "endColumn": 44
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 17,
+                  "endLine": 116,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 13,
+                  "endLine": 121,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 123,
+                  "startColumn": 17,
+                  "endLine": 123,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 17,
+                  "endLine": 128,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 13,
+                  "endLine": 134,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 17,
+                  "endLine": 136,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 138,
+                  "startColumn": 21,
+                  "endLine": 138,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 21,
+                  "endLine": 142,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 13,
+                  "endLine": 149,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 17,
+                  "endLine": 151,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 153,
+                  "startColumn": 21,
+                  "endLine": 153,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 21,
+                  "endLine": 157,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 164,
+                  "startColumn": 13,
+                  "endLine": 164,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 17,
+                  "endLine": 166,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 168,
+                  "startColumn": 21,
+                  "endLine": 168,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 21,
+                  "endLine": 172,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 13,
+                  "endLine": 179,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 17,
+                  "endLine": 181,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 21,
+                  "endLine": 183,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 187,
+                  "startColumn": 21,
+                  "endLine": 187,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 194,
+                  "startColumn": 13,
+                  "endLine": 194,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 17,
+                  "endLine": 196,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 13,
+                  "endLine": 201,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 17,
+                  "endLine": 203,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 205,
+                  "startColumn": 21,
+                  "endLine": 205,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 209,
+                  "startColumn": 21,
+                  "endLine": 209,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 13,
+                  "endLine": 220,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 13,
+                  "endLine": 225,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 230,
+                  "startColumn": 13,
+                  "endLine": 230,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 233,
+                  "startColumn": 17,
+                  "endLine": 233,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+3 (incl 2 for nesting)",
+              "11": "+1",
+              "12": "+1",
+              "13": "+2 (incl 1 for nesting)",
+              "14": "+3 (incl 2 for nesting)",
+              "15": "+1",
+              "16": "+1",
+              "17": "+2 (incl 1 for nesting)",
+              "18": "+3 (incl 2 for nesting)",
+              "19": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "20": "+1",
+              "21": "+2 (incl 1 for nesting)",
+              "22": "+1",
+              "23": "+2 (incl 1 for nesting)",
+              "24": "+3 (incl 2 for nesting)",
+              "25": "+1",
+              "26": "+1",
+              "27": "+1",
+              "28": "+1",
+              "29": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+1",
+              "5": "+2 (incl 1 for nesting)",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+1",
+              "8": "+1",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "The logging message template should not vary between calls to 'LoggerExtensions.LogError(ILogger, string?, params object?[])'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Email.Core/Services/SmtpService.cs",
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 30,
+                  "endLine": 251,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA2254": {
+          "id": "CA2254",
+          "shortDescription": "Template should be a static expression",
+          "fullDescription": "The logging message template should not vary between calls.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

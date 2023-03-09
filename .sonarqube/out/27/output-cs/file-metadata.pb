@@ -1,0 +1,10 @@
+É
+zC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\ISmtpService.csutf-8Ç
+yC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\MailMessage.csutf-8ç
+ÉC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\MailMessageAttachment.csutf-8ä
+ÄC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\SmtpDeliveryMethod.csutf-8å
+ÇC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\SmtpEncryptionMethod.csutf-8Å
+xC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\SmtpResult.csutf-8É
+zC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\SmtpSettings.csutf-8∂
+™C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8∂
+™C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Email.Abstractions\obj\Debug\net6.0\OrchardCore.Email.Abstractions.AssemblyInfo.csutf-8

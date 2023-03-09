@@ -1,0 +1,11 @@
+ò
+éC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\ServiceCollectionExtensions.csutf-8ü
+ïC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\Services\IShortcodeContextProvider.csutf-8°
+óC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\Services\IShortcodeDescriptorManager.csutf-8¢
+òC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\Services\IShortcodeDescriptorProvider.csutf-8ó
+çC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\Services\IShortcodeService.csutf-8ê
+ÜC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\ShortcodeDescriptor.csutf-8å
+ÇC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\ShortcodeOption.csutf-8ç
+ÉC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\ShortcodeOptions.csutf-8ª
+ØC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8¿
+¥C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shortcodes.Abstractions\obj\Debug\net6.0\OrchardCore.Shortcodes.Abstractions.AssemblyInfo.csutf-8

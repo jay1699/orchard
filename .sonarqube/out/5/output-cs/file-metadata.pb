@@ -1,0 +1,16 @@
+ï
+ãC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\IResourceManager.csutf-8é
+ÑC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\LinkEntry.csutf-8é
+ÑC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\MetaEntry.csutf-8ú
+íC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\Properties\AssemblyInfo.csutf-8î
+äC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\RequireSettings.csutf-8ñ
+åC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceDebugMode.csutf-8ó
+çC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceDefinition.csutf-8ï
+ãC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceLocation.csutf-8û
+îC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceManagementOptions.csutf-8ï
+ãC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceManifest.csutf-8î
+äC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceOptions.csutf-8ï
+ãC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourcePosition.csutf-8ú
+íC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\ResourceRequiredContext.csutf-8√
+∑C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8–
+ƒC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.ResourceManagement.Abstractions\obj\Debug\net6.0\OrchardCore.ResourceManagement.Abstractions.AssemblyInfo.csutf-8

@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-6.22580.4 (d7a61210)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CA1041",
+          "level": "note",
+          "message": "Provide a message for the ObsoleteAttribute that marks UseSerilogTenantNameLoggingMiddleware as Obsolete",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Logging.Serilog/ApplicationBuilderExtensions.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 10,
+                  "endLine": 8,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1123",
+          "level": "warning",
+          "message": "Add an explanation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Logging.Serilog/ApplicationBuilderExtensions.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 10,
+                  "endLine": 8,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1041",
+          "level": "note",
+          "message": "Provide a message for the ObsoleteAttribute that marks UseSerilogWeb as Obsolete",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Logging.Serilog/WebHostBuilderExtensions.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 10,
+                  "endLine": 9,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1123",
+          "level": "warning",
+          "message": "Add an explanation.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.Logging.Serilog/WebHostBuilderExtensions.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 10,
+                  "endLine": 9,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1041": {
+          "id": "CA1041",
+          "shortDescription": "Provide ObsoleteAttribute message",
+          "fullDescription": "A type or member is marked by using a System.ObsoleteAttribute attribute that does not have its ObsoleteAttribute.Message property specified. When a type or member that is marked by using ObsoleteAttribute is compiled, the Message property of the attribute is displayed. This gives the user information about the obsolete type or member.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1041",
+          "properties": {
+            "category": "Design",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S1123": {
+          "id": "S1123",
+          "shortDescription": "\"Obsolete\" attributes should include explanations",
+          "fullDescription": "The Obsolete attribute can be applied with or without a message argument. Marking something Obsolete without including advice on why it’s obsolete or what to use instead will lead maintainers to waste time trying to figure those things out.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1123",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

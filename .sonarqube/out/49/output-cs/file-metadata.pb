@@ -1,0 +1,11 @@
+ã
+ÅC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentPartBuilder.csutf-8á
+~C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentResource.csutf-8ô
+èC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentTypeCreateResourceBuilder.csutf-8ò
+éC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\ContentTypeQueryResourceBuilder.csutf-8ô
+èC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpContentExtensions.csutf-8ô
+èC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\HttpRequestExtensions.csutf-8î
+äC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\Extensions\StringExtensions.csutf-8ç
+ÉC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\OrchardGraphQLClient.csutf-8∑
+´C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8∏
+¨C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Apis.GraphQL.Client\obj\Debug\net6.0\OrchardCore.Apis.GraphQL.Client.AssemblyInfo.csutf-8

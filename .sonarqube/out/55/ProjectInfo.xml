@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Examples.OrchardCoreModules.Alpha</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>1c7a1dc2-06d4-4e5a-9af7-031421f10df9</ProjectGuid>
+  <FullPath>C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\test\OrchardCore.Tests.Modules\Examples.OrchardCoreModules.Alpha\Examples.OrchardCoreModules.Alpha.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\.sonarqube\conf\55\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\.sonarqube\out\55\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\.sonarqube\out\55</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net6.0</TargetFramework>
+</ProjectInfo>

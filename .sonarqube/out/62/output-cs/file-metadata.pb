@@ -1,0 +1,10 @@
+ù
+ìC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellConfigurationSources.csutf-8û
+îC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsConfigurationSources.csutf-8ô
+èC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellsSettingsSources.csutf-8ó
+çC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\Configuration\BlobShellStorageOptions.csutf-8£
+ôC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\Extensions\BlobShellsOrchardCoreBuilderExtensions.csutf-8é
+ÑC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\Services\BlobShellsFileStore.csutf-8ã
+ÅC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\Services\IShellsFileStore.csutf-8∞
+§C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8™
+ûC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Shells.Azure\obj\Debug\net6.0\OrchardCore.Shells.Azure.AssemblyInfo.csutf-8

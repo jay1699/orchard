@@ -1,0 +1,5 @@
+﻿C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore.Build\nuget-icon.png
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Theme.Targets\buildMultiTargeting\OrchardCore.Theme.Targets.props
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Theme.Targets\buildMultiTargeting\OrchardCore.Theme.Targets.targets
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Theme.Targets\OrchardCore.Theme.Targets.props
+C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Theme.Targets\OrchardCore.Theme.Targets.targets

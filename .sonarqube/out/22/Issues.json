@@ -1,0 +1,2005 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-6.22580.4 (d7a61210)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S3925",
+          "level": "warning",
+          "message": "Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceDictionary.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 18,
+                  "endLine": 7,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceDictionary.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 12,
+                  "endLine": 7,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceDictionary.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 12,
+                  "endLine": 7,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "Add 'System.SerializableAttribute' attribute on 'ResourceDictionary' because it implements 'ISerializable'.",
+              "1": "Add a 'protected' constructor 'ResourceDictionary(SerializationInfo, StreamingContext)'."
+            }
+          }
+        },
+        {
+          "ruleId": "CA1067",
+          "level": "note",
+          "message": "Type OrchardCore.ResourceManagement.ResourceManager.ResourceTypeName should override Equals because it implements IEquatable<T>",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 33,
+                  "endLine": 742,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1206",
+          "level": "warning",
+          "message": "This struct overrides 'GetHashCode' and should therefore also override 'Equals'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 742,
+                  "startColumn": 33,
+                  "endLine": 742,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1845",
+          "level": "note",
+          "message": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 90,
+                  "startColumn": 37,
+                  "endLine": 90,
+                  "endColumn": 94
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1845",
+          "level": "note",
+          "message": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 32,
+                  "endLine": 85,
+                  "endColumn": 84
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 17,
+                  "endLine": 175,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 171,
+                  "startColumn": 13,
+                  "endLine": 171,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'tagHelperContext' to 'context' to match the base class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ResourcesTagHelper.cs",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 55,
+                  "endLine": 35,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 36,
+                  "endLine": 185,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 13,
+                  "endLine": 192,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 200,
+                  "startColumn": 13,
+                  "endLine": 200,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 17,
+                  "endLine": 202,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 21,
+                  "endLine": 204,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 29,
+                  "endLine": 207,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 25,
+                  "endLine": 210,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 29,
+                  "endLine": 212,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 49,
+                  "endLine": 212,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 25,
+                  "endLine": 219,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 29,
+                  "endLine": 220,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 68,
+                  "endLine": 220,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+3 (incl 2 for nesting)",
+              "4": "+4 (incl 3 for nesting)",
+              "5": "+4 (incl 3 for nesting)",
+              "6": "+5 (incl 4 for nesting)",
+              "7": "+1",
+              "8": "+4 (incl 3 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 212,
+                  "startColumn": 29,
+                  "endLine": 212,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 25,
+                  "endLine": 210,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified with \"LINQ\" expressions",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 200,
+                  "startColumn": 31,
+                  "endLine": 200,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 21,
+                  "endLine": 202,
+                  "endColumn": 83
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 268,
+                  "startColumn": 17,
+                  "endLine": 268,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 13,
+                  "endLine": 265,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 240,
+                  "startColumn": 17,
+                  "endLine": 240,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 237,
+                  "startColumn": 13,
+                  "endLine": 237,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 44,
+                  "endLine": 78,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 44,
+                  "endLine": 145,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 78 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 50,
+                  "startColumn": 36,
+                  "endLine": 50,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 13,
+                  "endLine": 54,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 44,
+                  "endLine": 54,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 17,
+                  "endLine": 59,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 17,
+                  "endLine": 64,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 17,
+                  "endLine": 68,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 17,
+                  "endLine": 73,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 17,
+                  "endLine": 78,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 17,
+                  "endLine": 83,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 17,
+                  "endLine": 88,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 17,
+                  "endLine": 93,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 17,
+                  "endLine": 98,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 13,
+                  "endLine": 105,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 50,
+                  "endLine": 105,
+                  "endColumn": 52
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 17,
+                  "endLine": 111,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 17,
+                  "endLine": 116,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 17,
+                  "endLine": 120,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 17,
+                  "endLine": 125,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 17,
+                  "endLine": 130,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 17,
+                  "endLine": 135,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 17,
+                  "endLine": 140,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 17,
+                  "endLine": 145,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 17,
+                  "endLine": 150,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 156,
+                  "startColumn": 17,
+                  "endLine": 156,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 162,
+                  "startColumn": 17,
+                  "endLine": 162,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 169,
+                  "startColumn": 17,
+                  "endLine": 169,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 13,
+                  "endLine": 176,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 50,
+                  "endLine": 176,
+                  "endColumn": 52
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 17,
+                  "endLine": 183,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 188,
+                  "startColumn": 17,
+                  "endLine": 188,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 193,
+                  "startColumn": 17,
+                  "endLine": 193,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 17,
+                  "endLine": 198,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 17,
+                  "endLine": 203,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 211,
+                  "startColumn": 17,
+                  "endLine": 211,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 216,
+                  "startColumn": 17,
+                  "endLine": 216,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 221,
+                  "startColumn": 17,
+                  "endLine": 221,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 226,
+                  "startColumn": 17,
+                  "endLine": 226,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 17,
+                  "endLine": 231,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 17,
+                  "endLine": 235,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 240,
+                  "startColumn": 17,
+                  "endLine": 240,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 247,
+                  "startColumn": 13,
+                  "endLine": 247,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 247,
+                  "startColumn": 49,
+                  "endLine": 247,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 257,
+                  "startColumn": 17,
+                  "endLine": 257,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 17,
+                  "endLine": 263,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 268,
+                  "startColumn": 17,
+                  "endLine": 268,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/StyleTagHelper.cs",
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 17,
+                  "endLine": 272,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+2 (incl 1 for nesting)",
+              "11": "+1",
+              "12": "+1",
+              "13": "+2 (incl 1 for nesting)",
+              "14": "+2 (incl 1 for nesting)",
+              "15": "+1",
+              "16": "+2 (incl 1 for nesting)",
+              "17": "+2 (incl 1 for nesting)",
+              "18": "+2 (incl 1 for nesting)",
+              "19": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "20": "+2 (incl 1 for nesting)",
+              "21": "+2 (incl 1 for nesting)",
+              "22": "+2 (incl 1 for nesting)",
+              "23": "+2 (incl 1 for nesting)",
+              "24": "+2 (incl 1 for nesting)",
+              "25": "+1",
+              "26": "+1",
+              "27": "+2 (incl 1 for nesting)",
+              "28": "+2 (incl 1 for nesting)",
+              "29": "+2 (incl 1 for nesting)",
+              "3": "+2 (incl 1 for nesting)",
+              "30": "+2 (incl 1 for nesting)",
+              "31": "+2 (incl 1 for nesting)",
+              "32": "+2 (incl 1 for nesting)",
+              "33": "+2 (incl 1 for nesting)",
+              "34": "+2 (incl 1 for nesting)",
+              "35": "+2 (incl 1 for nesting)",
+              "36": "+2 (incl 1 for nesting)",
+              "37": "+1",
+              "38": "+2 (incl 1 for nesting)",
+              "39": "+1",
+              "4": "+1",
+              "40": "+1",
+              "41": "+2 (incl 1 for nesting)",
+              "42": "+2 (incl 1 for nesting)",
+              "43": "+2 (incl 1 for nesting)",
+              "44": "+1",
+              "5": "+2 (incl 1 for nesting)",
+              "6": "+2 (incl 1 for nesting)",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+2 (incl 1 for nesting)",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 109 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 36,
+                  "endLine": 49,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 13,
+                  "endLine": 53,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 44,
+                  "endLine": 53,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 17,
+                  "endLine": 58,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 17,
+                  "endLine": 63,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 21,
+                  "endLine": 73,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 78,
+                  "startColumn": 21,
+                  "endLine": 78,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 83,
+                  "startColumn": 21,
+                  "endLine": 83,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 21,
+                  "endLine": 88,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 21,
+                  "endLine": 93,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 21,
+                  "endLine": 98,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 17,
+                  "endLine": 106,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 17,
+                  "endLine": 111,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 17,
+                  "endLine": 116,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 121,
+                  "startColumn": 17,
+                  "endLine": 121,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 126,
+                  "startColumn": 17,
+                  "endLine": 126,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 17,
+                  "endLine": 131,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 17,
+                  "endLine": 136,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 56,
+                  "endLine": 136,
+                  "endColumn": 58
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 13,
+                  "endLine": 143,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 143,
+                  "startColumn": 50,
+                  "endLine": 143,
+                  "endColumn": 52
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 17,
+                  "endLine": 150,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 155,
+                  "startColumn": 17,
+                  "endLine": 155,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 17,
+                  "endLine": 160,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 17,
+                  "endLine": 165,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 17,
+                  "endLine": 170,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 17,
+                  "endLine": 175,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 17,
+                  "endLine": 180,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 17,
+                  "endLine": 186,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 17,
+                  "endLine": 191,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 17,
+                  "endLine": 197,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 21,
+                  "endLine": 201,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 208,
+                  "startColumn": 21,
+                  "endLine": 208,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 17,
+                  "endLine": 215,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 222,
+                  "startColumn": 13,
+                  "endLine": 222,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 222,
+                  "startColumn": 50,
+                  "endLine": 222,
+                  "endColumn": 52
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 17,
+                  "endLine": 229,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 234,
+                  "startColumn": 17,
+                  "endLine": 234,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 239,
+                  "startColumn": 17,
+                  "endLine": 239,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 17,
+                  "endLine": 244,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 17,
+                  "endLine": 249,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 254,
+                  "startColumn": 17,
+                  "endLine": 254,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 260,
+                  "startColumn": 17,
+                  "endLine": 260,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 266,
+                  "startColumn": 21,
+                  "endLine": 266,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 271,
+                  "startColumn": 21,
+                  "endLine": 271,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 21,
+                  "endLine": 276,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 281,
+                  "startColumn": 21,
+                  "endLine": 281,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 21,
+                  "endLine": 286,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 291,
+                  "startColumn": 21,
+                  "endLine": 291,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 299,
+                  "startColumn": 13,
+                  "endLine": 299,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 299,
+                  "startColumn": 49,
+                  "endLine": 299,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 309,
+                  "startColumn": 17,
+                  "endLine": 309,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 314,
+                  "startColumn": 17,
+                  "endLine": 314,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 318,
+                  "startColumn": 17,
+                  "endLine": 318,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/TagHelpers/ScriptTagHelper.cs",
+                "region": {
+                  "startLine": 322,
+                  "startColumn": 17,
+                  "endLine": 322,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+2 (incl 1 for nesting)",
+              "11": "+2 (incl 1 for nesting)",
+              "12": "+2 (incl 1 for nesting)",
+              "13": "+2 (incl 1 for nesting)",
+              "14": "+2 (incl 1 for nesting)",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+2 (incl 1 for nesting)",
+              "17": "+1",
+              "18": "+1",
+              "19": "+1",
+              "2": "+2 (incl 1 for nesting)",
+              "20": "+2 (incl 1 for nesting)",
+              "21": "+2 (incl 1 for nesting)",
+              "22": "+2 (incl 1 for nesting)",
+              "23": "+2 (incl 1 for nesting)",
+              "24": "+2 (incl 1 for nesting)",
+              "25": "+2 (incl 1 for nesting)",
+              "26": "+2 (incl 1 for nesting)",
+              "27": "+2 (incl 1 for nesting)",
+              "28": "+2 (incl 1 for nesting)",
+              "29": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "30": "+3 (incl 2 for nesting)",
+              "31": "+3 (incl 2 for nesting)",
+              "32": "+1",
+              "33": "+1",
+              "34": "+1",
+              "35": "+2 (incl 1 for nesting)",
+              "36": "+2 (incl 1 for nesting)",
+              "37": "+2 (incl 1 for nesting)",
+              "38": "+2 (incl 1 for nesting)",
+              "39": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "40": "+2 (incl 1 for nesting)",
+              "41": "+2 (incl 1 for nesting)",
+              "42": "+3 (incl 2 for nesting)",
+              "43": "+3 (incl 2 for nesting)",
+              "44": "+3 (incl 2 for nesting)",
+              "45": "+3 (incl 2 for nesting)",
+              "46": "+3 (incl 2 for nesting)",
+              "47": "+3 (incl 2 for nesting)",
+              "48": "+1",
+              "49": "+1",
+              "5": "+3 (incl 2 for nesting)",
+              "50": "+2 (incl 1 for nesting)",
+              "51": "+2 (incl 1 for nesting)",
+              "52": "+1",
+              "53": "+1",
+              "6": "+3 (incl 2 for nesting)",
+              "7": "+3 (incl 2 for nesting)",
+              "8": "+3 (incl 2 for nesting)",
+              "9": "+3 (incl 2 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1845",
+          "level": "note",
+          "message": "Use span-based 'string.Concat' and 'AsSpan' instead of 'Substring'",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 490,
+                  "startColumn": 29,
+                  "endLine": 490,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'GetUpperBoundVersion' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 235,
+                  "startColumn": 25,
+                  "endLine": 235,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'GetLowerBoundVersion' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.ResourceManagement/ResourceManager.cs",
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 25,
+                  "endLine": 263,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1067": {
+          "id": "CA1067",
+          "shortDescription": "Override Object.Equals(object) when implementing IEquatable<T>",
+          "fullDescription": "When a type T implements the interface IEquatable<T>, it suggests to a user who sees a call to the Equals method in source code that an instance of the type can be equated with an instance of any other type. The user might be confused if their attempt to equate the type with an instance of another type fails to compile. This violates the \"principle of least surprise\".",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1067",
+          "properties": {
+            "category": "Design",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1845": {
+          "id": "CA1845",
+          "shortDescription": "Use span-based 'string.Concat'",
+          "fullDescription": "It is more efficient to use 'AsSpan' and 'string.Concat', instead of 'Substring' and a concatenation operator.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1845",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S1066": {
+          "id": "S1066",
+          "shortDescription": "Collapsible \"if\" statements should be merged",
+          "fullDescription": "Merging collapsible if statements increases the code’s readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1066",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "Redundant Boolean literals should be removed from expressions to improve readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1206": {
+          "id": "S1206",
+          "shortDescription": "\"Equals(Object)\" and \"GetHashCode()\" should be overridden in pairs",
+          "fullDescription": "There is a contract between Equals(object) and GetHashCode(): If two objects are equal according to the Equals(object) method, then calling GetHashCode() on each of them must yield the same result. If this is not the case, many collections won’t handle class instances correctly.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1206",
+          "properties": {
+            "category": "Minor Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3267": {
+          "id": "S3267",
+          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
+          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3925": {
+          "id": "S3925",
+          "shortDescription": "\"ISerializable\" should be implemented correctly",
+          "fullDescription": "The ISerializable interface is the mechanism to control the type serialization process. If not implemented correctly this could result in an invalid serialization and hard to detect bugs.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3925",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

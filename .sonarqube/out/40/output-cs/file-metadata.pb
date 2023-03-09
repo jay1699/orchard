@@ -1,0 +1,16 @@
+ò
+éC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\ContentRootPoFileLocationProvider.csutf-8™
+†C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\DataAnnotations\DataAnnotationsDefaultErrorMessages.csutf-8©
+üC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\DataAnnotations\LocalizedDataAnnotationsMvcOptions.csutf-8™
+†C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\DataAnnotations\LocalizedValidationMetadataProvider.csutf-8ê
+ÜC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\DefaultPluralRuleProvider.csutf-8©
+üC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\Extensions\LocalizationServiceCollectionExtensions.csutf-8ä
+ÄC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\LocalizationManager.csutf-8°
+óC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PoFilesTranslationsProvider.csutf-8é
+ÑC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PoParser.csutf-8°
+óC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PortableObjectHtmlLocalizer.csutf-8®
+ûC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PortableObjectHtmlLocalizerFactory.csutf-8£
+ôC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PortableObjectStringLocalizer.csutf-8™
+†C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\PortableObject\PortableObjectStringLocalizerFactory.csutf-8µ
+©C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8¥
+®C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Localization.Core\obj\Debug\net6.0\OrchardCore.Localization.Core.AssemblyInfo.csutf-8

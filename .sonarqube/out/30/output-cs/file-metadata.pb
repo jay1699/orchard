@@ -1,0 +1,9 @@
+ï
+ãC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Elasticsearch.Abstractions\ElasticOptions.csutf-8ö
+êC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Elasticsearch.Abstractions\ElasticQueryResults.csutf-8ï
+ãC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Elasticsearch.Abstractions\ElasticTopDocs.csutf-8ó
+çC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Elasticsearch.Abstractions\IElasticAnalyzer.csutf-8õ
+ëC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Elasticsearch.Abstractions\IElasticQueryService.csutf-8°
+óC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Elasticsearch.Abstractions\IElasticsearchQueryService.csutf-8≈
+πC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Elasticsearch.Abstractions\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8‘
+»C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Elasticsearch.Abstractions\obj\Debug\net6.0\OrchardCore.Search.Elasticsearch.Abstractions.AssemblyInfo.csutf-8

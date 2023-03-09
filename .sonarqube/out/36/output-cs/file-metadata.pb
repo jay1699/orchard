@@ -1,0 +1,15 @@
+è
+ÖC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\ILuceneAnalyzer.csutf-8î
+äC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\ILuceneQueryProvider.csutf-8ì
+âC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\ILuceneQueryService.csutf-8ô
+èC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\ILuceneSearchQueryService.csutf-8é
+ÑC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\Indexing\Index.csutf-8ê
+ÜC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\Indexing\Mapping.csutf-8ë
+áC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\Indexing\Property.csutf-8é
+ÑC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\Indexing\Types.csutf-8ç
+ÉC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\LuceneOptions.csutf-8í
+àC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\LuceneQueryContext.csutf-8í
+àC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\LuceneQueryResults.csutf-8ç
+ÉC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\LuceneTopDocs.csutf-8æ
+≤C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8∆
+∫C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Search.Lucene.Abstractions\obj\Debug\net6.0\OrchardCore.Search.Lucene.Abstractions.AssemblyInfo.csutf-8

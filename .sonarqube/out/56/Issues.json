@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-6.22580.4 (d7a61210)",
+        "semanticVersion": "4.4.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "S4457",
+          "level": "warning",
+          "message": "Split this method into two, one handling parameters check and the other handling the asynchronous code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.FileStorage.AmazonS3/AwsFileStorage.cs",
+                "region": {
+                  "startLine": 181,
+                  "startColumn": 23,
+                  "endLine": 181,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.FileStorage.AmazonS3/AwsFileStorage.cs",
+                "region": {
+                  "startLine": 185,
+                  "startColumn": 19,
+                  "endLine": 185,
+                  "endColumn": 121
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'NormalizePrefix' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/jay.ahir/Desktop/OrchardCore-main/OrchardCore-main/src/OrchardCore/OrchardCore.FileStorage.AmazonS3/AwsFileStorage.cs",
+                "region": {
+                  "startLine": 290,
+                  "startColumn": 20,
+                  "endLine": 290,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S4457": {
+          "id": "S4457",
+          "shortDescription": "Parameter validation in \"async\"/\"await\" methods should be wrapped",
+          "fullDescription": "Because of the way async/await methods are rewritten by the compiler, any exceptions thrown during the parameters check will happen only when the task is observed. That could happen far away from the source of the buggy code or never happen for fire-and-forget tasks.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4457",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

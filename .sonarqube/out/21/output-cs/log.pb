@@ -1,0 +1,1 @@
+Roslyn version: 4.4.0.0Language version: CSharp10!Concurrent execution: enabled ≈File 'C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Module.Targets\obj\Debug\net6.0\OrchardCore.Module.Targets.AssemblyInfo.cs' was recognized as generated

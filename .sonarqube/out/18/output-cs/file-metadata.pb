@@ -1,0 +1,14 @@
+ò
+éC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\Extensions\FeedBuilderExtensions.csutf-8É
+zC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\IFeedBuilder.csutf-8å
+ÇC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\IFeedBuilderProvider.csutf-8á
+~C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\IFeedItemBuilder.csutf-8Å
+xC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\IFeedQuery.csutf-8ä
+ÄC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\IFeedQueryProvider.csutf-8ì
+âC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\Models\ContextualizeContext.csutf-8ä
+ÄC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\Models\FeedContext.csutf-8Ü
+}C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\Models\FeedItem.csutf-8ã
+ÅC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\Models\FeedMetadata.csutf-8ã
+ÅC:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\Models\FeedResponse.csutf-8∂
+™C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8∂
+™C:\Users\jay.ahir\Desktop\OrchardCore-main\OrchardCore-main\src\OrchardCore\OrchardCore.Feeds.Abstractions\obj\Debug\net6.0\OrchardCore.Feeds.Abstractions.AssemblyInfo.csutf-8
